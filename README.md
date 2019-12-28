@@ -1,4 +1,4 @@
-This project has broad applications.  I need help.   But maybe this project is in the selfish interest of your project and your team.  Consider these scenarios.  
+This project has broad applications.  I need help.   But maybe this project is in the selfish interest of your project and your team.  Are you new to Python and sqlite3?  Are you a twisted person and think Python is fun?  Look at my programs.  They are written by a beginner and easier. Consider these scenarios.  
 How many cars go through the intersection in the afternoon (say between 2 and 3pm) compared to the morning , (say between 10 and 11 am.)  
 How does the heart rate of the patient vary from evening, (say between 6 and 7)  and  to sleeping (say between 2am and 3am.)  
 How much more electricity does the apartment building use during a 24 period in January compared to the same time slot in May?   
