@@ -17,6 +17,8 @@ c_2 = conn.cursor()
 c_2.execute("CREATE TABLE IF NOT EXISTS new_table (column_one TEXT,  column_five TEXT, six BLOB, column_extra REAL)")
 """
 i THINK i NEED A DIFFERENT OBJECT FOR A DIFFERENT TABLE?
+no no no   This code works but the same cursor will work for two tables within the same database.  
+That makes sense anyway.
 """
 
 def dynamic_data_entry_column_five():
