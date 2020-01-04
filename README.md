@@ -1,14 +1,15 @@
 This project has broad applications.  I need help.   But maybe this project is in the selfish interest of your project and your team.  Are you new to Python and sqlite3?  Are you a twisted person and think Python is fun?  Look at my programs.  They are written by a beginner and easier. Consider these scenarios.  
-How many cars go through the intersection in the afternoon (say between 2 and 3pm) compared to the morning , (say between 10 and 11 am.)  
+How many cars go through the intersection in the afternoon (say between 2 and 3pm) compared to the morning , (say between 10 and 11 am.) 
 How does the heart rate of the patient vary from evening, (say between 6 and 7)  and  to sleeping (say between 2am and 3am.)  
 How much more electricity does the apartment building use during a 24 period in January compared to the same time slot in May?   
 What is the impact of the temperature on the efficiency of the wind turbine.  This implies a temperature input and a column with that value.
+
 What is the temperature average for the month of June over the last 15 years.  (this implies 15 years worth of data.)
 These are all about “what happens over time”.  The first column is a UNIX datetime stamp.  
 Let’s do this together.  That is what GitHub is all about
 _______________________________
 I have set up an experiment and it has produced about three million rows of data in about 25, sqlite3 databases.  The databases and tables are setup with the exact same code;  they are identical. There is one table per database.   GitHub has the database file [test_database] The only table is [first_table] It has about 300K lines and was created with an automatic Arduino C++ experiment.  This is an sqlite3 platform and has no complications regarding permissions.
-
+'''
 first_table has 6 columns:
 column_one:::   datetime stamp;   example 2019-03-02 18:54:44.991000
 column_two:::   data from pendulum one     example 1876598.  This is the period of the pendulum in			 millionths of a second.  So, the period is about 1.8 seconds.
@@ -16,7 +17,7 @@ column_three:::  data from pendulum two
 column_four::: 	data from pendulum three.
 column_five::   	the data is sorted into the column by size.  Column_five is the “does not fit any criteria” column
 column_six:::	   extra column.  For comments and the Python ‘start’ signal.  
-
+'''
 The pendulums were designed to have about the same period so they could be nicely graphed against one x axis.  Periods are approximately 1817300,  183500 and 182100.  The standard deviation is about 100.
 Is there anything interesting is all these numbers?  This seems like a sucker bet.  But that is the theme.
 Measurement out to a millionth of a second is powerful.  And there are three pendulums.
