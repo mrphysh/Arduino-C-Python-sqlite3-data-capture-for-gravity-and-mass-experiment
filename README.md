@@ -72,3 +72,8 @@ And this project implies the creation of a new database to hold the summary data
 That is all.  Pull the master.py and look at it, please.  There is lots of documentation in the program and spaces, with notation, for the various sections.  
 If you are interested, there are references above that will flesh out the larger project.
 
+Jan 22 2020.  The first Beta prototype is complete.  It works as designed.  Things I have learned:
+Much of the code relates to exceptions;  what if the field is blank.  What if the days are not sequential.  How about a zero value.  How can I get rid of the garbage right at the beginning.
+The sqlite3 table includes a [date] field.  I just learned this.  The database was taking the datetime.datetime, but making it into a string to fit in my TEXT box.  To increment the day I had to turn it into a datetime, increment it, surn it back into a string and chop it down to the correct 10 digits.
+The two pairs of objects and two databases were the usual set of carelessness and bad thinking,, but really no problem.
+I am much dissappointed with the dta I have seen.  It is too sloppy to make any conclusions.
