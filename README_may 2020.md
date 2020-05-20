@@ -1,12 +1,23 @@
-###This project has broad applications.  I need help.   But maybe this project is in the selfish interest of your project and your team.  Are you new to Python and sqlite3?  Are you a twisted person and think Python is fun?  Look at my programs.  They are written by a beginner and easier. Consider these scenarios.  
-How many cars go through the intersection in the afternoon (say between 2 and 3pm) compared to the morning , (say between 10 and 11 am.) 
-How does the heart rate of the patient vary from evening, (say between 6 and 7)  and  to sleeping (say between 2am and 3am.)  
-How much more electricity does the apartment building use during a 24 period in January compared to the same time slot in May?   
-What is the impact of the temperature on the efficiency of the wind turbine.  This implies a temperature input and a column with that value.
+This repository is all about dealing with big sqlite3 databases.  There might be relevance in these cases:
+•	What is the average temperature between 6:00am and 6:15am for the month of March?
+•	When, in the night, does the temperature fall the fastest?
+•	How many cars go by on a typical weekday morning?
+•	At what hour is rush hour the busiest?
+•	Is there a correlation between wind speed and temperature?
+(my application is all about time.  One of the fields is a UNIX time stamp)
+There is a ton of cool code.  It was written by a beginner and may be more understandable than code written by teams over many years
+•	How does the programmer deal with exceptions; like null fields or blank rows?
+•	How can she iterate through different days or times of days.?
+•	Suppose you want to sort the data into groups.  How do you do that?
+•	Maybe take an average between two times?  How?
+•	Python seems to take data out of the sqlite3 database as a string.  Did you know that?  How is this string made into ‘the next day’?
+•	There is a bit on moving from one variable type to another.
+•	How would you count every other beat?  (I thought it was clever; in C++)
+•	How about using variables in the sqlite3 INSERT statement?
+•	How about using a variable for the creation of the connection object?
+•	How can you build quality checks into the software and into the database?
+•	This is all about Python and sqlite3.  Practice practice practice
 
-What is the temperature average for the month of June over the last 15 years.  (this implies 15 years worth of data.)
-These are all about “what happens over time”.  The first column is a UNIX datetime stamp.  
-Let’s do this together.  That is what GitHub is all about
 _______________________________
 I have set up an experiment and it has produced about three million rows of data in about 25, sqlite3 databases.  The databases and tables are setup with the exact same code;  they are identical. There is one table per database.   GitHub has the database file [test_database] The only table is [first_table] It has about 300K lines and was created with an automatic Arduino C++ experiment.  This is an sqlite3 platform and has no complications regarding permissions.
 
