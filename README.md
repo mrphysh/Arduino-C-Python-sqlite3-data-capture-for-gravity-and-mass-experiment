@@ -32,3 +32,9 @@ There are two experiments under the same platform.  The Hall is at the end of th
 The interval of the actual Hall signal (how long is the signal high) does not impact the data.
 The Python mostly can cleanly separate them but there were some problems.  I added 20 and 30 million to respective inputs, such that the Python could more definitely separate them and then subtracted it before adding to the database.  The Python uses these libraries: serial  sqlite3 datetime OS.
 This repository includes copies of these programs.
+https://youtu.be/5dWK-NFF1Iw  and  https://youtu.be/PH7FHUDZ4PM
+
+ 
+
+
+
